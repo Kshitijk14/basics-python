@@ -1,0 +1,6 @@
+curl -X POST -u "apikey:GyqtJwdjjLDBcocni1gVorttvitvhjE65sy2OdwO9SEu" \
+--header "Content-Type: application/json" \
+--header "Accept: audio/wav" \
+--data "{\"text\":\"hello world\"}" \
+--output hello_world.wav \
+"https://api.au-syd.text-to-speech.watson.cloud.ibm.com/instances/c6be9b2a-68e4-4d90-ab3f-4966906ebc8f/v1/synthesize?voice=en-US_MichaelV3Voice"

@@ -1,0 +1,4 @@
+curl -X POST -u "apikey:PqIVG13wkVXMnNjbWcuBB31P0JkR7Tc-3TooYnUaukkS" \
+--header "Content-Type: audio/wav" \
+--data-binary @./hello_world.wav \
+"https://api.au-syd.speech-to-text.watson.cloud.ibm.com/instances/13399424-c66a-4317-a707-12477a4021ea/v1/recognize"
